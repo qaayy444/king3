@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Lilita+One&display=swap');
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+@import url('https://fonts.googleapis.com/css?family=Lilita+One|Noto+Sans+TC&display=swap');
+
+*
+{
+/*   background-color:#c49c57; */
+  transition:0.5s;
+  
+}
+.background
+{
+  background:#fff url('https://upload.wikimedia.org/wikipedia/commons/7/77/%C3%84gypten_Tal_der_K%C3%B6nige.jpg') center center fixed no-repeat;
+  background-size:cover;
+    
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+#box1{
+  height: 100vh;
+  width: 100%;
+  background-image: url(https://storystudio.tw/wp-content/uploads/2019/01/egypt-two-2.jpg);
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#box2{
+  height:100vh;
+  width: 100%;
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+h1{
+  font-family: arial black;
+  color: #fff;
+  position:relative;
+  top:-150px;
+  font-size: 50px;
+  left:0px;
+  margin: 0;
+  display: table-cell;
+  vertical-align: middle;
+  
+}
+h2
+{
+  font-family: 'cwTeXYen', sans-serif;
+  font-weight:900;
+  color: #fff;
+  position:relative;
+/*   top:-100px; */
+  font-size: 80px;
+  margin: 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+h4
+{  
+  font-family: 'cwTeXYen', sans-serif;
+  color: #fff;
+  position:relative;
+  left:-50px;
+  font-size: 25px;
+  margin: 0;
+  text-align: center;
+  display: table-cell;
+  vertical-align:center;
+  top:300px;          
+}
+.p1
+{
+  border:5px solid black;
+  position:absolute;
+  left:40%;
+  top:180%;
+  margin:0;
+  vertical-align:center;
+  overflow:hidden;
+}
+
+p
+{ 
+  font-size:25px;
+  text-align:center;
+  font-weight:900;
+  font-family:微軟正黑體;
+}
+.card-title
+{
+  opacity:0;
+}
+.card-title:hover
+{
+  opacity:100;
+  
+}
+.img_title
+{
+  position: absolute;
+  top: 0%;
+  left: 5%;
+  
+  opacity:0;
+  background: rgba(0, 0, 0, 1);
+}
+.img_title p
+{ 
+  
+  font-size:30px;
+  text-align:center;
+  font-weight:900; 
+  color:#fff;
+  z-index:1;
+}
+.img_title:hover
+{
+  opacity:1;
+}
